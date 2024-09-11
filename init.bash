@@ -1,0 +1,1 @@
+cobc -x -o principal principal.cob subprogram.o
