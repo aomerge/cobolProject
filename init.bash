@@ -1,3 +1,5 @@
+mkdir -p bin
+mkdir -p bin/libs
 
 cd src
 gcc -shared -fPIC -o libdbConection.so dbConection.c -lodbc
